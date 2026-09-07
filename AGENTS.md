@@ -6,7 +6,7 @@ Issues and specs are tracked in GitHub Issues https://github.com/SPHERE-DI/cours
 
 ### Triage labels
 
-Canonical defaults, except `ready-for-agent` is spelled `Sandcastle` in this repo. See `docs/agents/triage-labels.md`.
+The five canonical triage roles use their default label names. See `docs/agents/triage-labels.md`.
 
 ### Domain docs
 
