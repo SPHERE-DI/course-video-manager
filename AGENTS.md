@@ -48,6 +48,10 @@ the route is a candidate for a Job (ADR 0032). List them with
 stream and the teleprompter poll are left out. The threshold is in
 `apps/local/app/services/slow-request-log.server.ts`.
 
+## Troncs
+
+`main`,  Aucune session n'écrit ni ne commite sur un tronc : elle s'isole d'abord dans son worktree et revient par PR. Skill `worktree-gestion`. `develop` is not yet configured
+
 ### Repository layout
 
 A Turborepo monorepo. Two apps: `apps/local` is today's application, and `apps/remote` is the deployed RPC API (a Hono app on Vercel — see [apps/remote/README.md](./apps/remote/README.md)). Three workspace packages under `packages/`:
