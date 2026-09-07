@@ -1,0 +1,5 @@
+interface:
+  display_name: "Sync Skills"
+  short_description: "Check or rebuild the Codex skill projection"
+policy:
+  allow_implicit_invocation: false
