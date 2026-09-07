@@ -1,8 +1,8 @@
 ## Agent skills
 
-### Backlog
+### Issue tracker
 
-Issues and PRDs live as GitHub issues in `mattpocock/course-video-manager`, managed via the `gh` CLI. See `docs/agents/backlog.md`.
+Issues and specs are tracked in GitHub Issues https://github.com/SPHERE-DI/course-video-manager, managed via the gh CLI. See docs/agents/issue-tracker.md
 
 ### Triage labels
 
