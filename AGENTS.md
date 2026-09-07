@@ -12,6 +12,10 @@ The five canonical triage roles use their default label names. See `docs/agents/
 
 Single-context layout: `CONTEXT.md` at the repo root, ADRs under `docs/adr/`. See `docs/agents/domain.md`.
 
+## Troncs
+
+`main`,  Aucune session n'écrit ni ne commite sur un tronc : elle s'isole d'abord dans son worktree et revient par PR. Skill `worktree-gestion`. `develop` is not yet configured
+
 ### Repository layout
 
 A Turborepo monorepo. Two apps: `apps/local` is today's application, and `apps/remote` is the deployed RPC API (a Hono app on Vercel — see [apps/remote/README.md](./apps/remote/README.md)). Three workspace packages under `packages/`:
