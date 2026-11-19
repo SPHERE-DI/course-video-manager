@@ -1089,4 +1089,4 @@ repo's_ concrete vocabulary:
 
 - [`triage-labels.md`](./triage-labels.md) — the canonical-role → repo-label mapping.
 - [`queued-promotion.md`](./queued-promotion.md) — the Promote Queued behaviour in repo terms.
-- [`backlog.md`](./backlog.md) — `gh` CLI conventions for issues/PRDs.
+- [`issue-tracker.md`](./issue-tracker.md) — `gh` CLI conventions for issues/PRDs.
